@@ -695,3 +695,8 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2025-04-20T20:42:27.979+01:00  INFO 4416 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
 2025-04-20T20:42:28.290+01:00  INFO 4416 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
 2025-04-20T20:42:28.307+01:00  INFO 4416 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 11.173 seconds (process running for 12.078)
+2025-04-20T21:25:38.836+01:00  INFO 4416 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T21:25:38.854+01:00  INFO 4416 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T21:25:38.870+01:00  INFO 4416 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T21:25:38.890+01:00  INFO 4416 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-20T21:25:38.903+01:00  INFO 4416 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
