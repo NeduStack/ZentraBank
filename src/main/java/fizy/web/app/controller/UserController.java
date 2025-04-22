@@ -12,32 +12,42 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
+/**
+ * This class is responsible for handling user-related requests.
+ * It provides endpoints for user registration and authentication.
+ */
 @RestController
 @RequestMapping("/user")
 @RequiredArgsConstructor
 public class UserController {
 
     private final UserService userService;
-    //endpoints here
-    @GetMapping("/register")
+
+    /**
+     * Registers a new user using the provided user data.
+     *
+     * @param userDto The user data to be registered.
+     * @return A ResponseEntity containing the registered user.
+     */
+    @PostMapping("/register")
     public ResponseEntity<User> registerUser(@RequestBody UserDto userDto) {
         return ResponseEntity.ok(userService.registerUser(userDto));
     }
 
-    /*public ResponseEntity<?> authenticateUser(@RequestBody UserDto userDto) {
-        Var authObject = userService.authenticateUser(userDto);
-        return ResponseEntity.ok()
-                .header(HttpHeaders.AUTHORIZATION, authObject.get("token").toString())
-                .body(authObject.get("user"));
-    }*/
-
-    @PostMapping("/authenticate")
+    /**
+     * Authenticates a user using the provided user data.
+     *
+     * @param userDto The user data to be authenticated.
+     * @return A ResponseEntity containing the authentication token and the authenticated user.
+     */
+    @PostMapping("/auth")
     public ResponseEntity<?> authenticateUser(@RequestBody UserDto userDto) {
-        Map<String, Object> authObject = userService.authenticateUser(userDto);
+        var authObject = userService.authenticateUser(userDto);
+        var token = (String) authObject.get("token");
+        System.out.println("Jwt token: " + token);
         return ResponseEntity.ok()
-                .header(HttpHeaders.AUTHORIZATION, authObject.get("token").toString())
+                .header("Authorization", token)
+                .header(HttpHeaders.ACCESS_CONTROL_EXPOSE_HEADERS, "Authorization")
                 .body(authObject.get("user"));
     }
-
-
 }
