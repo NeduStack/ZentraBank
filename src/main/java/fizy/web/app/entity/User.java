@@ -1,6 +1,7 @@
 package fizy.web.app.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
@@ -41,7 +42,7 @@ public class User implements UserDetails {
     private Long tel;
 
     private String tag;
-
+    @JsonIgnore
     private String password;
 
     private String gender;
@@ -52,21 +53,18 @@ public class User implements UserDetails {
     @UpdateTimestamp
     private LocalDateTime updatedAt;
 
-    //@ManyToMany(fetch = FetchType.EAGER)
-    //@JoinTable(
-            //name = "user_roles",
-            //joinColumns = @JoinColumn(name = "user_id"),
-            //inverseJoinColumns = @JoinColumn(name = "role_id")
-    //)
     private List<String> roles;
 
     @OneToOne(mappedBy = "owner", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonIgnore
     private Card card;
 
     @OneToMany(mappedBy = "owner", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonIgnore
     private List<Transaction> transactions;
 
     @OneToMany(mappedBy = "owner", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonIgnore
     private List<Account> accounts;
 
 

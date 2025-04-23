@@ -1,22 +1,22 @@
-2025-04-22T00:20:38.422+01:00  INFO 19944 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 19944 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T00:20:38.485+01:00 DEBUG 19944 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T00:20:38.487+01:00  INFO 19944 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T00:20:40.432+01:00  INFO 19944 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T00:20:40.657+01:00  INFO 19944 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 173 ms. Found 4 JPA repository interfaces.
-2025-04-22T00:20:42.202+01:00  INFO 19944 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T00:20:42.239+01:00  INFO 19944 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T00:20:42.239+01:00  INFO 19944 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T00:20:42.370+01:00  INFO 19944 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T00:20:42.371+01:00  INFO 19944 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3756 ms
-2025-04-22T00:20:42.774+01:00  INFO 19944 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T00:20:42.931+01:00  INFO 19944 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T00:20:43.054+01:00  INFO 19944 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T00:20:43.872+01:00  INFO 19944 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T00:20:43.950+01:00  INFO 19944 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T00:20:44.375+01:00  INFO 19944 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@994544
-2025-04-22T00:20:44.378+01:00  INFO 19944 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T00:20:44.483+01:00  WARN 19944 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T00:20:44.532+01:00  INFO 19944 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-23T00:01:25.303+01:00  INFO 1192 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 1192 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
+2025-04-23T00:01:25.323+01:00 DEBUG 1192 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
+2025-04-23T00:01:25.325+01:00  INFO 1192 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-23T00:01:28.182+01:00  INFO 1192 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-23T00:01:28.426+01:00  INFO 1192 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 216 ms. Found 4 JPA repository interfaces.
+2025-04-23T00:01:30.467+01:00  INFO 1192 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-23T00:01:30.527+01:00  INFO 1192 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-23T00:01:30.527+01:00  INFO 1192 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-23T00:01:30.841+01:00  INFO 1192 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2025-04-23T00:01:30.842+01:00  INFO 1192 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5383 ms
+2025-04-23T00:01:31.304+01:00  INFO 1192 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-23T00:01:31.491+01:00  INFO 1192 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-23T00:01:31.608+01:00  INFO 1192 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-23T00:01:32.548+01:00  INFO 1192 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-23T00:01:32.673+01:00  INFO 1192 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-23T00:01:33.633+01:00  INFO 1192 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a51ae7c
+2025-04-23T00:01:33.637+01:00  INFO 1192 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-23T00:01:34.017+01:00  WARN 1192 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-23T00:01:34.130+01:00  INFO 1192 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 13.20
@@ -24,38 +24,42 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-22T00:20:47.071+01:00  INFO 19944 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T00:20:47.583+01:00  INFO 19944 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T00:20:48.324+01:00 DEBUG 19944 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T00:20:48.421+01:00  INFO 19944 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T00:20:48.421+01:00  WARN 19944 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T00:20:48.486+01:00  WARN 19944 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T00:20:49.550+01:00  INFO 19944 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T00:20:49.564+01:00  INFO 19944 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 12.347 seconds (process running for 13.554)
-2025-04-22T00:23:02.540+01:00  INFO 19944 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T00:23:02.548+01:00  INFO 19944 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T00:23:02.555+01:00  INFO 19944 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T00:23:02.559+01:00  INFO 19944 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T00:23:02.578+01:00  INFO 19944 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-22T00:23:11.658+01:00  INFO 9780 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 9780 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T00:23:11.663+01:00 DEBUG 9780 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T00:23:11.678+01:00  INFO 9780 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T00:23:13.674+01:00  INFO 9780 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T00:23:13.949+01:00  INFO 9780 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 229 ms. Found 4 JPA repository interfaces.
-2025-04-22T00:23:16.309+01:00  INFO 9780 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T00:23:16.341+01:00  INFO 9780 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T00:23:16.342+01:00  INFO 9780 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T00:23:16.486+01:00  INFO 9780 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T00:23:16.487+01:00  INFO 9780 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4687 ms
-2025-04-22T00:23:16.822+01:00  INFO 9780 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T00:23:16.977+01:00  INFO 9780 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T00:23:17.061+01:00  INFO 9780 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T00:23:17.769+01:00  INFO 9780 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T00:23:17.844+01:00  INFO 9780 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T00:23:18.249+01:00  INFO 9780 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d28c214
-2025-04-22T00:23:18.253+01:00  INFO 9780 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T00:23:18.316+01:00  WARN 9780 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T00:23:18.353+01:00  INFO 9780 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-23T00:01:38.948+01:00  INFO 1192 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-23T00:01:39.708+01:00  INFO 1192 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T00:01:40.457+01:00 DEBUG 1192 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2025-04-23T00:01:40.652+01:00  INFO 1192 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-23T00:01:40.653+01:00  WARN 1192 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-23T00:01:40.788+01:00  WARN 1192 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T00:01:42.179+01:00  INFO 1192 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
+2025-04-23T00:01:42.196+01:00  INFO 1192 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 18.071 seconds (process running for 18.979)
+2025-04-23T00:01:53.514+01:00  INFO 1192 --- [ZentraBank] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-23T00:01:53.515+01:00  INFO 1192 --- [ZentraBank] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-23T00:01:53.517+01:00  INFO 1192 --- [ZentraBank] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-23T00:24:34.994+01:00  WARN 1192 --- [ZentraBank] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m30s452ms929µs200ns).
+2025-04-23T00:48:49.258+01:00  INFO 1192 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-23T00:48:49.283+01:00  INFO 1192 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-23T00:48:49.303+01:00  INFO 1192 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T00:48:49.333+01:00  INFO 1192 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-23T00:48:49.364+01:00  INFO 1192 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-23T00:49:01.465+01:00  INFO 10676 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 10676 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
+2025-04-23T00:49:01.470+01:00 DEBUG 10676 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
+2025-04-23T00:49:01.474+01:00  INFO 10676 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-23T00:49:04.402+01:00  INFO 10676 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-23T00:49:04.663+01:00  INFO 10676 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 200 ms. Found 4 JPA repository interfaces.
+2025-04-23T00:49:07.336+01:00  INFO 10676 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-23T00:49:07.377+01:00  INFO 10676 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-23T00:49:07.378+01:00  INFO 10676 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-23T00:49:07.578+01:00  INFO 10676 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2025-04-23T00:49:07.579+01:00  INFO 10676 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5866 ms
+2025-04-23T00:49:08.352+01:00  INFO 10676 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-23T00:49:08.620+01:00  INFO 10676 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-23T00:49:08.747+01:00  INFO 10676 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-23T00:49:09.674+01:00  INFO 10676 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-23T00:49:09.770+01:00  INFO 10676 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-23T00:49:10.466+01:00  INFO 10676 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@994544
+2025-04-23T00:49:10.471+01:00  INFO 10676 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-23T00:49:10.570+01:00  WARN 10676 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-23T00:49:10.626+01:00  INFO 10676 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 13.20
@@ -63,38 +67,51 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-22T00:23:20.467+01:00  INFO 9780 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T00:23:20.922+01:00  INFO 9780 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T00:23:21.704+01:00 DEBUG 9780 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T00:23:21.902+01:00  INFO 9780 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T00:23:21.903+01:00  WARN 9780 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T00:23:22.051+01:00  WARN 9780 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T00:23:23.711+01:00  INFO 9780 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T00:23:23.729+01:00  INFO 9780 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 13.279 seconds (process running for 14.22)
-2025-04-22T00:23:38.639+01:00  INFO 9780 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T00:23:38.652+01:00  INFO 9780 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T00:23:38.660+01:00  INFO 9780 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T00:23:38.664+01:00  INFO 9780 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T00:23:38.692+01:00  INFO 9780 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-22T00:24:04.423+01:00  INFO 8196 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 8196 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T00:24:04.426+01:00 DEBUG 8196 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T00:24:04.428+01:00  INFO 8196 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T00:24:06.263+01:00  INFO 8196 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T00:24:06.445+01:00  INFO 8196 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157 ms. Found 4 JPA repository interfaces.
-2025-04-22T00:24:07.925+01:00  INFO 8196 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T00:24:07.961+01:00  INFO 8196 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T00:24:07.962+01:00  INFO 8196 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T00:24:08.080+01:00  INFO 8196 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T00:24:08.081+01:00  INFO 8196 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3493 ms
-2025-04-22T00:24:08.475+01:00  INFO 8196 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T00:24:08.595+01:00  INFO 8196 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T00:24:08.681+01:00  INFO 8196 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T00:24:09.292+01:00  INFO 8196 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T00:24:09.348+01:00  INFO 8196 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T00:24:10.373+01:00  INFO 8196 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3212d853
-2025-04-22T00:24:10.391+01:00  INFO 8196 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T00:24:10.542+01:00  WARN 8196 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T00:24:10.614+01:00  INFO 8196 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-23T00:49:13.164+01:00  INFO 10676 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-23T00:49:13.941+01:00  INFO 10676 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T00:49:14.809+01:00 DEBUG 10676 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2025-04-23T00:49:14.989+01:00  INFO 10676 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-23T00:49:14.991+01:00  WARN 10676 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-23T00:49:15.107+01:00  WARN 10676 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T00:49:15.304+01:00 DEBUG 10676 --- [ZentraBank] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-04-23T00:49:15.501+01:00 DEBUG 10676 --- [ZentraBank] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-04-23T00:49:15.869+01:00 DEBUG 10676 --- [ZentraBank] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-04-23T00:49:15.960+01:00 DEBUG 10676 --- [ZentraBank] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-04-23T00:49:16.238+01:00  INFO 10676 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
+2025-04-23T00:49:16.257+01:00  INFO 10676 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 16.327 seconds (process running for 17.431)
+2025-04-23T00:49:21.932+01:00  INFO 10676 --- [ZentraBank] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-23T00:49:21.933+01:00  INFO 10676 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-23T00:49:21.933+01:00 DEBUG 10676 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-04-23T00:49:21.934+01:00 DEBUG 10676 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-04-23T00:49:21.934+01:00 DEBUG 10676 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-04-23T00:49:21.939+01:00 DEBUG 10676 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@17b9c9ff
+2025-04-23T00:49:21.941+01:00 DEBUG 10676 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7c7a4986
+2025-04-23T00:49:21.942+01:00 DEBUG 10676 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-04-23T00:49:21.942+01:00  INFO 10676 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2025-04-23T00:58:36.307+01:00  INFO 10676 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-23T00:58:36.336+01:00  INFO 10676 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-23T00:58:36.358+01:00  INFO 10676 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T00:58:36.393+01:00  INFO 10676 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-23T00:58:36.417+01:00  INFO 10676 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-23T01:01:20.844+01:00  INFO 10856 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 10856 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
+2025-04-23T01:01:20.850+01:00 DEBUG 10856 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
+2025-04-23T01:01:20.853+01:00  INFO 10856 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-23T01:01:23.240+01:00  INFO 10856 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-23T01:01:23.483+01:00  INFO 10856 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 216 ms. Found 4 JPA repository interfaces.
+2025-04-23T01:01:25.225+01:00  INFO 10856 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-23T01:01:25.264+01:00  INFO 10856 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-23T01:01:25.265+01:00  INFO 10856 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-23T01:01:25.419+01:00  INFO 10856 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2025-04-23T01:01:25.420+01:00  INFO 10856 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4413 ms
+2025-04-23T01:01:25.874+01:00  INFO 10856 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-23T01:01:26.116+01:00  INFO 10856 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-23T01:01:26.282+01:00  INFO 10856 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-23T01:01:27.205+01:00  INFO 10856 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-23T01:01:27.331+01:00  INFO 10856 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-23T01:01:27.928+01:00  INFO 10856 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67a8bcbb
+2025-04-23T01:01:27.933+01:00  INFO 10856 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-23T01:01:28.085+01:00  WARN 10856 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-23T01:01:28.179+01:00  INFO 10856 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 13.20
@@ -102,242 +119,126 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-22T00:24:16.795+01:00  INFO 8196 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T00:24:18.240+01:00  INFO 8196 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T00:24:21.421+01:00 DEBUG 8196 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T00:24:21.676+01:00  INFO 8196 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T00:24:21.677+01:00  WARN 8196 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T00:24:21.854+01:00  WARN 8196 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T00:24:27.322+01:00  INFO 8196 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T00:24:27.472+01:00  INFO 8196 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 24.109 seconds (process running for 25.005)
-2025-04-22T00:24:54.348+01:00  INFO 8196 --- [ZentraBank] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-22T00:24:54.350+01:00  INFO 8196 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-22T00:24:54.353+01:00  INFO 8196 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-04-22T00:24:54.416+01:00 ERROR 8196 --- [ZentraBank] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1] threw exception
-
-java.lang.NullPointerException: Cannot invoke "String.startsWith(String)" because "jwtToken" is null
-	at fizy.web.app.filter.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:37) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$4(FilterChainProxy.java:237) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:216) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:194) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2025-04-22T00:25:27.688+01:00 ERROR 8196 --- [ZentraBank] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1] threw exception
-
-java.lang.NullPointerException: Cannot invoke "String.startsWith(String)" because "jwtToken" is null
-	at fizy.web.app.filter.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:37) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$4(FilterChainProxy.java:237) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:216) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:194) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2025-04-22T00:26:13.835+01:00 ERROR 8196 --- [ZentraBank] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1] threw exception
-
-java.lang.NullPointerException: Cannot invoke "String.startsWith(String)" because "jwtToken" is null
-	at fizy.web.app.filter.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:37) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$4(FilterChainProxy.java:237) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:216) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:194) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2025-04-22T00:27:09.261+01:00  INFO 8196 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T00:27:09.269+01:00  INFO 8196 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T00:27:09.276+01:00  INFO 8196 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T00:27:09.279+01:00  INFO 8196 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T00:27:09.294+01:00  INFO 8196 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-22T00:27:40.495+01:00  INFO 11268 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 11268 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T00:27:40.499+01:00 DEBUG 11268 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T00:27:40.501+01:00  INFO 11268 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T00:27:42.471+01:00  INFO 11268 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T00:27:42.665+01:00  INFO 11268 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 4 JPA repository interfaces.
-2025-04-22T00:27:44.214+01:00  INFO 11268 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T00:27:44.250+01:00  INFO 11268 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T00:27:44.251+01:00  INFO 11268 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T00:27:44.379+01:00  INFO 11268 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T00:27:44.380+01:00  INFO 11268 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3699 ms
-2025-04-22T00:27:45.046+01:00  INFO 11268 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T00:27:45.216+01:00  INFO 11268 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T00:27:45.319+01:00  INFO 11268 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T00:27:45.944+01:00  INFO 11268 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T00:27:46.014+01:00  INFO 11268 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T00:27:46.444+01:00  INFO 11268 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a9e8da1
-2025-04-22T00:27:46.447+01:00  INFO 11268 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T00:27:46.520+01:00  WARN 11268 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T00:27:46.561+01:00  INFO 11268 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-23T01:01:32.023+01:00  INFO 10856 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-23T01:01:32.723+01:00  INFO 10856 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T01:01:34.907+01:00 DEBUG 10856 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2025-04-23T01:01:36.671+01:00  INFO 10856 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-23T01:01:36.675+01:00  WARN 10856 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-23T01:01:37.213+01:00  WARN 10856 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T01:01:37.826+01:00 DEBUG 10856 --- [ZentraBank] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-04-23T01:01:38.091+01:00 DEBUG 10856 --- [ZentraBank] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-04-23T01:01:38.634+01:00 DEBUG 10856 --- [ZentraBank] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-04-23T01:01:38.758+01:00 DEBUG 10856 --- [ZentraBank] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-04-23T01:01:39.132+01:00  INFO 10856 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
+2025-04-23T01:01:39.160+01:00  INFO 10856 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 19.743 seconds (process running for 20.869)
+2025-04-23T01:01:42.853+01:00  INFO 10856 --- [ZentraBank] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-23T01:01:42.854+01:00  INFO 10856 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-23T01:01:42.855+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-04-23T01:01:42.856+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-04-23T01:01:42.856+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-04-23T01:01:42.859+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6f09cb98
+2025-04-23T01:01:42.860+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1a4564a2
+2025-04-23T01:01:42.863+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-04-23T01:01:42.866+01:00  INFO 10856 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2025-04-23T01:07:33.926+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/user/auth", parameters={}
+2025-04-23T01:07:33.943+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to fizy.web.app.controller.UserController#authenticateUser(UserDto)
+2025-04-23T01:07:34.341+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [fizy.web.app.dto.UserDto@792168b9]
+2025-04-23T01:07:34.387+01:00 TRACE 10856 --- [ZentraBank] [http-nio-8080-exec-7] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByUsernameIgnoreCase]: This method is not transactional.
+2025-04-23T01:07:34.930+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.uid,
+        u1_0.created_at,
+        u1_0.dob,
+        u1_0.firstname,
+        u1_0.gender,
+        u1_0.lastname,
+        u1_0.password,
+        u1_0.roles,
+        u1_0.tag,
+        u1_0.tel,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        bank_user u1_0 
+    where
+        upper(u1_0.username)=upper(?)
+2025-04-23T01:07:35.075+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.cardid,
+        c1_0.balance,
+        c1_0.billing_address,
+        c1_0.card_holder,
+        c1_0.card_number,
+        c1_0.cvv,
+        c1_0.exp,
+        c1_0.iss,
+        o1_0.uid,
+        o1_0.created_at,
+        o1_0.dob,
+        o1_0.firstname,
+        o1_0.gender,
+        o1_0.lastname,
+        o1_0.password,
+        o1_0.roles,
+        o1_0.tag,
+        o1_0.tel,
+        o1_0.updated_at,
+        o1_0.username,
+        c1_0.pin,
+        c1_0.updated_at 
+    from
+        cards c1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=c1_0.owner_id 
+    where
+        c1_0.owner_id=?
+2025-04-23T01:07:35.405+01:00 TRACE 10856 --- [ZentraBank] [http-nio-8080-exec-7] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByUsernameIgnoreCase]: This method is not transactional.
+2025-04-23T01:07:35.410+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.uid,
+        u1_0.created_at,
+        u1_0.dob,
+        u1_0.firstname,
+        u1_0.gender,
+        u1_0.lastname,
+        u1_0.password,
+        u1_0.roles,
+        u1_0.tag,
+        u1_0.tel,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        bank_user u1_0 
+    where
+        upper(u1_0.username)=upper(?)
+2025-04-23T01:07:36.042+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-04-23T01:07:36.044+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [fizy.web.app.entity.User@7283f6b2]
+2025-04-23T01:07:36.090+01:00 DEBUG 10856 --- [ZentraBank] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-04-23T01:09:40.237+01:00  INFO 10856 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-23T01:09:40.251+01:00  INFO 10856 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-23T01:09:40.265+01:00  INFO 10856 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T01:09:40.290+01:00  INFO 10856 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-23T01:09:40.328+01:00  INFO 10856 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-23T01:27:06.927+01:00  INFO 24192 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 24192 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
+2025-04-23T01:27:06.944+01:00 DEBUG 24192 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
+2025-04-23T01:27:06.947+01:00  INFO 24192 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-23T01:27:09.328+01:00  INFO 24192 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-23T01:27:09.562+01:00  INFO 24192 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 193 ms. Found 4 JPA repository interfaces.
+2025-04-23T01:27:12.079+01:00  INFO 24192 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-23T01:27:12.127+01:00  INFO 24192 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-23T01:27:12.128+01:00  INFO 24192 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-23T01:27:12.332+01:00  INFO 24192 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2025-04-23T01:27:12.337+01:00  INFO 24192 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5225 ms
+2025-04-23T01:27:12.803+01:00  INFO 24192 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-23T01:27:12.993+01:00  INFO 24192 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-23T01:27:13.126+01:00  INFO 24192 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-23T01:27:14.493+01:00  INFO 24192 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-23T01:27:14.680+01:00  INFO 24192 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-23T01:27:15.282+01:00  INFO 24192 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7cca31fc
+2025-04-23T01:27:15.286+01:00  INFO 24192 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-23T01:27:15.434+01:00  WARN 24192 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-23T01:27:15.539+01:00  INFO 24192 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 13.20
@@ -345,427 +246,538 @@ java.lang.NullPointerException: Cannot invoke "String.startsWith(String)" becaus
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-22T00:27:49.475+01:00  INFO 11268 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T00:27:50.147+01:00  INFO 11268 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T00:27:50.884+01:00 DEBUG 11268 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T00:27:50.994+01:00  INFO 11268 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T00:27:50.995+01:00  WARN 11268 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T00:27:51.068+01:00  WARN 11268 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T00:27:52.257+01:00  INFO 11268 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T00:27:52.277+01:00  INFO 11268 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 12.811 seconds (process running for 13.698)
-2025-04-22T00:28:06.933+01:00  INFO 11268 --- [ZentraBank] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-22T00:28:06.934+01:00  INFO 11268 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-22T00:28:06.936+01:00  INFO 11268 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-04-22T00:28:06.989+01:00 ERROR 11268 --- [ZentraBank] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1] threw exception
-
-java.lang.NullPointerException: Cannot invoke "String.startsWith(String)" because "jwtToken" is null
-	at fizy.web.app.filter.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:37) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$4(FilterChainProxy.java:237) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:216) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:194) ~[spring-security-web-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.5.0-M3.jar:6.5.0-M3]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2025-04-22T03:45:24.378+01:00  WARN 11268 --- [ZentraBank] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h7s552ms87µs200ns).
-2025-04-22T07:58:57.083+01:00  WARN 11268 --- [ZentraBank] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h13m40s473ms57µs200ns).
-2025-04-22T08:24:21.269+01:00  INFO 11268 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T08:24:21.343+01:00  INFO 11268 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T08:24:21.418+01:00  INFO 11268 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T08:24:21.498+01:00  INFO 11268 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T08:24:21.524+01:00  INFO 11268 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-22T08:24:44.086+01:00  INFO 23288 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 23288 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T08:24:44.090+01:00 DEBUG 23288 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T08:24:44.092+01:00  INFO 23288 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T08:24:46.402+01:00  INFO 23288 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T08:24:46.619+01:00  INFO 23288 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 187 ms. Found 4 JPA repository interfaces.
-2025-04-22T08:24:48.511+01:00  INFO 23288 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T08:24:48.551+01:00  INFO 23288 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T08:24:48.552+01:00  INFO 23288 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T08:24:48.698+01:00  INFO 23288 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T08:24:48.700+01:00  INFO 23288 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4475 ms
-2025-04-22T08:24:49.132+01:00  INFO 23288 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T08:24:49.306+01:00  INFO 23288 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T08:24:49.429+01:00  INFO 23288 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T08:24:50.187+01:00  INFO 23288 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T08:24:50.269+01:00  INFO 23288 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T08:24:50.774+01:00  INFO 23288 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43deba42
-2025-04-22T08:24:50.776+01:00  INFO 23288 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T08:24:50.848+01:00  WARN 23288 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T08:24:50.882+01:00  INFO 23288 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 13.20
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-04-22T08:24:53.099+01:00  INFO 23288 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T08:24:53.582+01:00  INFO 23288 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T08:24:54.610+01:00 DEBUG 23288 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T08:24:54.700+01:00  INFO 23288 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T08:24:54.701+01:00  WARN 23288 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T08:24:54.767+01:00  WARN 23288 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T08:24:55.859+01:00  INFO 23288 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T08:24:55.874+01:00  INFO 23288 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 12.993 seconds (process running for 13.893)
-2025-04-22T08:25:22.304+01:00  INFO 23288 --- [ZentraBank] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-22T08:25:22.304+01:00  INFO 23288 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-22T08:25:22.309+01:00  INFO 23288 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-04-22T08:25:22.510+01:00  WARN 23288 --- [ZentraBank] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<fizy.web.app.entity.User> fizy.web.app.controller.UserController.registerUser(fizy.web.app.dto.UserDto)]
-2025-04-22T08:26:58.297+01:00  WARN 23288 --- [ZentraBank] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<fizy.web.app.entity.User> fizy.web.app.controller.UserController.registerUser(fizy.web.app.dto.UserDto)]
-2025-04-22T08:38:46.916+01:00  WARN 23288 --- [ZentraBank] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2000-01-01": not a valid representation (error: Failed to parse Date value '2000-01-01': Unparseable date: "2000-01-01")]
-2025-04-22T08:41:07.512+01:00  INFO 23288 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T08:41:07.524+01:00  INFO 23288 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T08:41:07.536+01:00  INFO 23288 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T08:41:07.556+01:00  INFO 23288 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T08:41:07.575+01:00  INFO 23288 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-22T08:41:15.626+01:00  INFO 22692 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 22692 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T08:41:15.631+01:00 DEBUG 22692 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T08:41:15.640+01:00  INFO 22692 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T08:41:18.819+01:00  INFO 22692 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T08:41:19.562+01:00  INFO 22692 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 655 ms. Found 4 JPA repository interfaces.
-2025-04-22T08:41:21.339+01:00  INFO 22692 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T08:41:21.394+01:00  INFO 22692 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T08:41:21.395+01:00  INFO 22692 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T08:41:21.645+01:00  INFO 22692 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T08:41:21.647+01:00  INFO 22692 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5839 ms
-2025-04-22T08:41:22.596+01:00  INFO 22692 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T08:41:22.829+01:00  INFO 22692 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T08:41:22.942+01:00  INFO 22692 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T08:41:23.736+01:00  INFO 22692 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T08:41:23.797+01:00  INFO 22692 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T08:41:24.200+01:00  INFO 22692 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d1c52f5
-2025-04-22T08:41:24.203+01:00  INFO 22692 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T08:41:24.284+01:00  WARN 22692 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T08:41:24.323+01:00  INFO 22692 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 13.20
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-04-22T08:41:26.864+01:00  INFO 22692 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T08:41:27.342+01:00  INFO 22692 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T08:41:28.390+01:00 DEBUG 22692 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T08:41:28.492+01:00  INFO 22692 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T08:41:28.493+01:00  WARN 22692 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T08:41:28.581+01:00  WARN 22692 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T08:41:30.095+01:00  INFO 22692 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T08:41:30.112+01:00  INFO 22692 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 16.065 seconds (process running for 17.337)
-2025-04-22T08:43:20.443+01:00  INFO 22692 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T08:43:20.467+01:00  INFO 22692 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T08:43:20.481+01:00  INFO 22692 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T08:43:20.507+01:00  INFO 22692 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T08:43:20.566+01:00  INFO 22692 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-22T08:44:26.447+01:00  INFO 7300 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 7300 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T08:44:26.452+01:00 DEBUG 7300 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T08:44:26.454+01:00  INFO 7300 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T08:44:28.418+01:00  INFO 7300 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T08:44:28.741+01:00  INFO 7300 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 275 ms. Found 4 JPA repository interfaces.
-2025-04-22T08:44:30.260+01:00  INFO 7300 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T08:44:30.299+01:00  INFO 7300 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T08:44:30.300+01:00  INFO 7300 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T08:44:30.420+01:00  INFO 7300 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T08:44:30.422+01:00  INFO 7300 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3792 ms
-2025-04-22T08:44:30.803+01:00  INFO 7300 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T08:44:30.956+01:00  INFO 7300 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T08:44:31.085+01:00  INFO 7300 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T08:44:31.749+01:00  INFO 7300 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T08:44:31.802+01:00  INFO 7300 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T08:44:32.254+01:00  INFO 7300 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e93b0e7
-2025-04-22T08:44:32.257+01:00  INFO 7300 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T08:44:32.315+01:00  WARN 7300 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T08:44:32.352+01:00  INFO 7300 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 13.20
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-04-22T08:44:34.541+01:00  INFO 7300 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T08:44:35.028+01:00  INFO 7300 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T08:44:35.788+01:00 DEBUG 7300 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T08:44:35.877+01:00  INFO 7300 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T08:44:35.878+01:00  WARN 7300 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T08:44:35.940+01:00  WARN 7300 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T08:44:36.960+01:00  INFO 7300 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T08:44:36.981+01:00  INFO 7300 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 11.802 seconds (process running for 12.804)
-2025-04-22T08:44:51.963+01:00  INFO 7300 --- [ZentraBank] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-22T08:44:51.963+01:00  INFO 7300 --- [ZentraBank] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-22T08:44:51.965+01:00  INFO 7300 --- [ZentraBank] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-04-22T08:44:52.259+01:00  WARN 7300 --- [ZentraBank] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2000-01-01": not a valid representation (error: Failed to parse Date value '2000-01-01': Unparseable date: "2000-01-01")]
-2025-04-22T08:45:55.235+01:00  WARN 7300 --- [ZentraBank] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2000-01-01": not a valid representation (error: Failed to parse Date value '2000-01-01': Unparseable date: "2000-01-01")]
-2025-04-22T08:48:27.475+01:00  INFO 7300 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T08:48:27.484+01:00  INFO 7300 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T08:48:27.492+01:00  INFO 7300 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T08:48:27.500+01:00  INFO 7300 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T08:48:27.513+01:00  INFO 7300 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-22T08:48:35.906+01:00  INFO 15164 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 15164 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T08:48:35.910+01:00 DEBUG 15164 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T08:48:35.912+01:00  INFO 15164 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T08:48:37.912+01:00  INFO 15164 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T08:48:38.112+01:00  INFO 15164 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 4 JPA repository interfaces.
-2025-04-22T08:48:39.693+01:00  INFO 15164 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T08:48:39.830+01:00  INFO 15164 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T08:48:39.831+01:00  INFO 15164 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T08:48:40.102+01:00  INFO 15164 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T08:48:40.103+01:00  INFO 15164 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4061 ms
-2025-04-22T08:48:41.518+01:00  INFO 15164 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T08:48:41.697+01:00  INFO 15164 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T08:48:41.827+01:00  INFO 15164 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T08:48:42.546+01:00  INFO 15164 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T08:48:42.621+01:00  INFO 15164 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T08:48:43.077+01:00  INFO 15164 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e93b0e7
-2025-04-22T08:48:43.081+01:00  INFO 15164 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T08:48:43.165+01:00  WARN 15164 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T08:48:43.209+01:00  INFO 15164 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 13.20
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-04-22T08:48:45.965+01:00  INFO 15164 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T08:48:46.537+01:00  INFO 15164 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T08:48:47.257+01:00 DEBUG 15164 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T08:48:47.348+01:00  INFO 15164 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T08:48:47.349+01:00  WARN 15164 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T08:48:47.415+01:00  WARN 15164 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T08:48:48.497+01:00  INFO 15164 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T08:48:48.517+01:00  INFO 15164 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 13.702 seconds (process running for 15.021)
-2025-04-22T08:49:50.406+01:00  INFO 15164 --- [ZentraBank] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-22T08:49:50.407+01:00  INFO 15164 --- [ZentraBank] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-22T08:49:50.411+01:00  INFO 15164 --- [ZentraBank] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2025-04-22T08:57:30.422+01:00  INFO 15164 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T08:57:30.441+01:00  INFO 15164 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T08:57:30.454+01:00  INFO 15164 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T08:57:30.457+01:00  INFO 15164 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T08:57:30.473+01:00  INFO 15164 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-22T08:57:40.989+01:00  INFO 22936 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 22936 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T08:57:40.993+01:00 DEBUG 22936 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T08:57:40.994+01:00  INFO 22936 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T08:57:42.850+01:00  INFO 22936 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T08:57:43.058+01:00  INFO 22936 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 177 ms. Found 4 JPA repository interfaces.
-2025-04-22T08:57:44.709+01:00  INFO 22936 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T08:57:44.744+01:00  INFO 22936 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T08:57:44.744+01:00  INFO 22936 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T08:57:44.885+01:00  INFO 22936 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T08:57:44.885+01:00  INFO 22936 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3769 ms
-2025-04-22T08:57:45.279+01:00  INFO 22936 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T08:57:45.431+01:00  INFO 22936 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T08:57:45.538+01:00  INFO 22936 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T08:57:46.218+01:00  INFO 22936 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T08:57:46.276+01:00  INFO 22936 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T08:57:46.709+01:00  INFO 22936 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6fc1a8f6
-2025-04-22T08:57:46.713+01:00  INFO 22936 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T08:57:46.784+01:00  WARN 22936 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T08:57:46.823+01:00  INFO 22936 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 13.20
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-04-22T08:57:49.189+01:00  INFO 22936 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T08:57:49.690+01:00  INFO 22936 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T08:57:50.446+01:00 DEBUG 22936 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T08:57:50.572+01:00  INFO 22936 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T08:57:50.573+01:00  WARN 22936 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T08:57:50.635+01:00  WARN 22936 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T08:57:52.191+01:00  INFO 22936 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T08:57:52.211+01:00  INFO 22936 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 12.32 seconds (process running for 13.188)
-2025-04-22T08:57:59.164+01:00  INFO 22936 --- [ZentraBank] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-22T08:57:59.166+01:00  INFO 22936 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-22T08:57:59.170+01:00  INFO 22936 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-04-22T09:01:28.288+01:00  INFO 22936 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T09:01:28.297+01:00  INFO 22936 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T09:01:28.303+01:00  INFO 22936 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T09:01:28.307+01:00  INFO 22936 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T09:01:28.321+01:00  INFO 22936 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-22T09:01:35.121+01:00  INFO 10904 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 10904 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T09:01:35.125+01:00 DEBUG 10904 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T09:01:35.126+01:00  INFO 10904 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T09:01:36.908+01:00  INFO 10904 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T09:01:37.086+01:00  INFO 10904 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 4 JPA repository interfaces.
-2025-04-22T09:01:38.769+01:00  INFO 10904 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T09:01:38.810+01:00  INFO 10904 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T09:01:38.812+01:00  INFO 10904 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T09:01:38.958+01:00  INFO 10904 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T09:01:38.960+01:00  INFO 10904 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3707 ms
-2025-04-22T09:01:39.443+01:00  INFO 10904 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T09:01:39.607+01:00  INFO 10904 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T09:01:39.729+01:00  INFO 10904 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T09:01:40.512+01:00  INFO 10904 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T09:01:40.589+01:00  INFO 10904 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T09:01:41.052+01:00  INFO 10904 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e93b0e7
-2025-04-22T09:01:41.055+01:00  INFO 10904 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T09:01:41.140+01:00  WARN 10904 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T09:01:41.186+01:00  INFO 10904 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 13.20
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-04-22T09:01:43.717+01:00  INFO 10904 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T09:01:44.336+01:00  INFO 10904 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T09:01:45.101+01:00 DEBUG 10904 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T09:01:45.191+01:00  INFO 10904 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T09:01:45.192+01:00  WARN 10904 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T09:01:45.252+01:00  WARN 10904 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T09:01:46.252+01:00  INFO 10904 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T09:01:46.268+01:00  INFO 10904 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 12.234 seconds (process running for 13.207)
-2025-04-22T09:01:55.735+01:00  INFO 10904 --- [ZentraBank] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-22T09:01:55.735+01:00  INFO 10904 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-22T09:01:55.738+01:00  INFO 10904 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-04-22T09:03:22.728+01:00  INFO 10904 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T09:03:22.736+01:00  INFO 10904 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T09:03:22.741+01:00  INFO 10904 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T09:03:22.745+01:00  INFO 10904 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T09:03:22.757+01:00  INFO 10904 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-22T09:04:48.084+01:00  INFO 1972 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 1972 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T09:04:48.089+01:00 DEBUG 1972 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T09:04:48.091+01:00  INFO 1972 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T09:04:50.069+01:00  INFO 1972 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T09:04:50.303+01:00  INFO 1972 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 208 ms. Found 4 JPA repository interfaces.
-2025-04-22T09:04:51.796+01:00  INFO 1972 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T09:04:51.828+01:00  INFO 1972 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T09:04:51.830+01:00  INFO 1972 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T09:04:51.960+01:00  INFO 1972 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T09:04:51.961+01:00  INFO 1972 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3731 ms
-2025-04-22T09:04:52.363+01:00  INFO 1972 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T09:04:52.490+01:00  INFO 1972 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T09:04:52.578+01:00  INFO 1972 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T09:04:53.240+01:00  INFO 1972 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T09:04:53.301+01:00  INFO 1972 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T09:04:53.690+01:00  INFO 1972 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6fc1a8f6
-2025-04-22T09:04:53.694+01:00  INFO 1972 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T09:04:53.763+01:00  WARN 1972 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T09:04:53.801+01:00  INFO 1972 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 13.20
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-04-22T09:04:56.059+01:00  INFO 1972 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T09:04:56.527+01:00  INFO 1972 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T09:04:57.317+01:00 DEBUG 1972 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T09:04:57.402+01:00  INFO 1972 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T09:04:57.403+01:00  WARN 1972 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T09:04:57.460+01:00  WARN 1972 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T09:04:58.478+01:00  INFO 1972 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T09:04:58.495+01:00  INFO 1972 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 11.464 seconds (process running for 12.347)
-2025-04-22T09:05:08.924+01:00  INFO 1972 --- [ZentraBank] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-22T09:05:08.924+01:00  INFO 1972 --- [ZentraBank] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-22T09:05:08.926+01:00  INFO 1972 --- [ZentraBank] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-04-22T09:10:15.403+01:00  INFO 1972 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T09:10:15.418+01:00  INFO 1972 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T09:10:15.427+01:00  INFO 1972 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T09:10:15.432+01:00  INFO 1972 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T09:10:15.449+01:00  INFO 1972 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-22T09:10:23.883+01:00  INFO 18452 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Starting ZentraBankApplication using Java 21.0.6 with PID 18452 (C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank\target\classes started by chine in C:\Users\chine\Desktop\UoB RESOURCES\ADVANCED SOFTWARE ENG\proj\ZentraBank)
-2025-04-22T09:10:23.889+01:00 DEBUG 18452 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Running with Spring Boot v3.5.0-M3, Spring v6.2.5
-2025-04-22T09:10:23.893+01:00  INFO 18452 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-22T09:10:26.466+01:00  INFO 18452 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-22T09:10:26.709+01:00  INFO 18452 --- [ZentraBank] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 209 ms. Found 4 JPA repository interfaces.
-2025-04-22T09:10:28.350+01:00  INFO 18452 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-22T09:10:28.386+01:00  INFO 18452 --- [ZentraBank] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-22T09:10:28.387+01:00  INFO 18452 --- [ZentraBank] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-22T09:10:28.521+01:00  INFO 18452 --- [ZentraBank] [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
-2025-04-22T09:10:28.522+01:00  INFO 18452 --- [ZentraBank] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4374 ms
-2025-04-22T09:10:28.954+01:00  INFO 18452 --- [ZentraBank] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-22T09:10:29.121+01:00  INFO 18452 --- [ZentraBank] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-22T09:10:29.205+01:00  INFO 18452 --- [ZentraBank] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-22T09:10:30.120+01:00  INFO 18452 --- [ZentraBank] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-22T09:10:30.217+01:00  INFO 18452 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-22T09:10:30.775+01:00  INFO 18452 --- [ZentraBank] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f45db49
-2025-04-22T09:10:30.778+01:00  INFO 18452 --- [ZentraBank] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-22T09:10:30.947+01:00  WARN 18452 --- [ZentraBank] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-22T09:10:31.032+01:00  INFO 18452 --- [ZentraBank] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 13.20
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-04-22T09:10:34.295+01:00  INFO 18452 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-22T09:10:35.486+01:00  INFO 18452 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T09:10:37.082+01:00 DEBUG 18452 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-04-22T09:10:37.218+01:00  INFO 18452 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-22T09:10:37.221+01:00  WARN 18452 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-22T09:10:37.374+01:00  WARN 18452 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-22T09:10:39.216+01:00  INFO 18452 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
-2025-04-22T09:10:39.233+01:00  INFO 18452 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 16.764 seconds (process running for 17.646)
-2025-04-22T09:10:47.213+01:00  INFO 18452 --- [ZentraBank] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-22T09:10:47.213+01:00  INFO 18452 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-22T09:10:47.215+01:00  INFO 18452 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-04-22T10:57:02.622+01:00  WARN 18452 --- [ZentraBank] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m1s63ms848µs699ns).
-2025-04-22T11:09:31.647+01:00  INFO 18452 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-22T11:09:31.776+01:00  INFO 18452 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-22T11:09:31.907+01:00  INFO 18452 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-22T11:09:32.134+01:00  INFO 18452 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-22T11:09:32.311+01:00  INFO 18452 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-23T01:27:18.629+01:00  INFO 24192 --- [ZentraBank] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-23T01:27:19.668+01:00  INFO 24192 --- [ZentraBank] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T01:27:20.753+01:00 DEBUG 24192 --- [ZentraBank] [main] f.w.app.filter.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2025-04-23T01:27:20.965+01:00  INFO 24192 --- [ZentraBank] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-23T01:27:20.971+01:00  WARN 24192 --- [ZentraBank] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-23T01:27:21.110+01:00  WARN 24192 --- [ZentraBank] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T01:27:21.500+01:00 DEBUG 24192 --- [ZentraBank] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-04-23T01:27:21.799+01:00 DEBUG 24192 --- [ZentraBank] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-04-23T01:27:22.312+01:00 DEBUG 24192 --- [ZentraBank] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-04-23T01:27:22.574+01:00 DEBUG 24192 --- [ZentraBank] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-04-23T01:27:24.601+01:00  INFO 24192 --- [ZentraBank] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1'
+2025-04-23T01:27:24.653+01:00  INFO 24192 --- [ZentraBank] [main] fizy.web.app.ZentraBankApplication       : Started ZentraBankApplication in 19.048 seconds (process running for 20.276)
+2025-04-23T01:28:03.306+01:00  INFO 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-23T01:28:03.311+01:00  INFO 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-23T01:28:03.312+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-04-23T01:28:03.312+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-04-23T01:28:03.313+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-04-23T01:28:03.314+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6ad4ef13
+2025-04-23T01:28:03.315+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@69c335c4
+2025-04-23T01:28:03.316+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-04-23T01:28:03.317+01:00  INFO 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2025-04-23T01:28:03.537+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/user/auth", parameters={}
+2025-04-23T01:28:03.542+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to fizy.web.app.controller.UserController#authenticateUser(UserDto)
+2025-04-23T01:28:03.805+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [fizy.web.app.dto.UserDto@64873954]
+2025-04-23T01:28:03.822+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByUsernameIgnoreCase]: This method is not transactional.
+2025-04-23T01:28:04.141+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.uid,
+        u1_0.created_at,
+        u1_0.dob,
+        u1_0.firstname,
+        u1_0.gender,
+        u1_0.lastname,
+        u1_0.password,
+        u1_0.roles,
+        u1_0.tag,
+        u1_0.tel,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        bank_user u1_0 
+    where
+        upper(u1_0.username)=upper(?)
+2025-04-23T01:28:04.232+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.cardid,
+        c1_0.balance,
+        c1_0.billing_address,
+        c1_0.card_holder,
+        c1_0.card_number,
+        c1_0.cvv,
+        c1_0.exp,
+        c1_0.iss,
+        o1_0.uid,
+        o1_0.created_at,
+        o1_0.dob,
+        o1_0.firstname,
+        o1_0.gender,
+        o1_0.lastname,
+        o1_0.password,
+        o1_0.roles,
+        o1_0.tag,
+        o1_0.tel,
+        o1_0.updated_at,
+        o1_0.username,
+        c1_0.pin,
+        c1_0.updated_at 
+    from
+        cards c1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=c1_0.owner_id 
+    where
+        c1_0.owner_id=?
+2025-04-23T01:28:04.542+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByUsernameIgnoreCase]: This method is not transactional.
+2025-04-23T01:28:04.546+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.uid,
+        u1_0.created_at,
+        u1_0.dob,
+        u1_0.firstname,
+        u1_0.gender,
+        u1_0.lastname,
+        u1_0.password,
+        u1_0.roles,
+        u1_0.tag,
+        u1_0.tel,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        bank_user u1_0 
+    where
+        upper(u1_0.username)=upper(?)
+2025-04-23T01:28:05.332+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-04-23T01:28:05.335+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [fizy.web.app.entity.User@b572c]
+2025-04-23T01:28:05.379+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-04-23T01:33:03.546+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-5] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByUsernameIgnoreCase]: This method is not transactional.
+2025-04-23T01:33:03.651+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.uid,
+        u1_0.created_at,
+        u1_0.dob,
+        u1_0.firstname,
+        u1_0.gender,
+        u1_0.lastname,
+        u1_0.password,
+        u1_0.roles,
+        u1_0.tag,
+        u1_0.tel,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        bank_user u1_0 
+    where
+        upper(u1_0.username)=upper(?)
+2025-04-23T01:33:03.661+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        c1_0.cardid,
+        c1_0.balance,
+        c1_0.billing_address,
+        c1_0.card_holder,
+        c1_0.card_number,
+        c1_0.cvv,
+        c1_0.exp,
+        c1_0.iss,
+        o1_0.uid,
+        o1_0.created_at,
+        o1_0.dob,
+        o1_0.firstname,
+        o1_0.gender,
+        o1_0.lastname,
+        o1_0.password,
+        o1_0.roles,
+        o1_0.tag,
+        o1_0.tel,
+        o1_0.updated_at,
+        o1_0.username,
+        c1_0.pin,
+        c1_0.updated_at 
+    from
+        cards c1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=c1_0.owner_id 
+    where
+        c1_0.owner_id=?
+2025-04-23T01:33:03.675+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/accounts", parameters={}
+2025-04-23T01:33:03.678+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to fizy.web.app.controller.AccountController#createAccount(AccountDto, Authentication)
+2025-04-23T01:33:03.716+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [fizy.web.app.dto.AccountDto@250891cd]
+2025-04-23T01:33:03.732+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-5] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.existsByCodeAndOwnerUid]: This method is not transactional.
+2025-04-23T01:33:03.753+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        a1_0.account_id 
+    from
+        accounts a1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=a1_0.owner_id 
+    where
+        a1_0.code=? 
+        and o1_0.uid=? 
+    fetch
+        first ? rows only
+2025-04-23T01:33:03.769+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-5] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.existsByAccountNumber]: This method is not transactional.
+2025-04-23T01:33:03.778+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        a1_0.account_id 
+    from
+        accounts a1_0 
+    where
+        a1_0.account_number=? 
+    fetch
+        first ? rows only
+2025-04-23T01:33:03.825+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-5] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2025-04-23T01:33:03.883+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-5] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2025-04-23T01:33:03.922+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        accounts
+        (account_name, account_number, balance, code, created_at, currency, label, owner_id, status, symbol, type, updated_at, user_id, account_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-04-23T01:33:03.976+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-04-23T01:33:03.978+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [fizy.web.app.entity.Account@70179c24]
+2025-04-23T01:33:03.990+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-04-23T01:36:05.409+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-7] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByUsernameIgnoreCase]: This method is not transactional.
+2025-04-23T01:36:05.414+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.uid,
+        u1_0.created_at,
+        u1_0.dob,
+        u1_0.firstname,
+        u1_0.gender,
+        u1_0.lastname,
+        u1_0.password,
+        u1_0.roles,
+        u1_0.tag,
+        u1_0.tel,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        bank_user u1_0 
+    where
+        upper(u1_0.username)=upper(?)
+2025-04-23T01:36:05.420+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.cardid,
+        c1_0.balance,
+        c1_0.billing_address,
+        c1_0.card_holder,
+        c1_0.card_number,
+        c1_0.cvv,
+        c1_0.exp,
+        c1_0.iss,
+        o1_0.uid,
+        o1_0.created_at,
+        o1_0.dob,
+        o1_0.firstname,
+        o1_0.gender,
+        o1_0.lastname,
+        o1_0.password,
+        o1_0.roles,
+        o1_0.tag,
+        o1_0.tel,
+        o1_0.updated_at,
+        o1_0.username,
+        c1_0.pin,
+        c1_0.updated_at 
+    from
+        cards c1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=c1_0.owner_id 
+    where
+        c1_0.owner_id=?
+2025-04-23T01:36:05.428+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/accounts", parameters={}
+2025-04-23T01:36:05.429+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to fizy.web.app.controller.AccountController#getUserAccounts(Authentication)
+2025-04-23T01:36:05.431+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-7] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAllByOwnerUid]: This method is not transactional.
+2025-04-23T01:36:05.440+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        a1_0.account_id,
+        a1_0.account_name,
+        a1_0.account_number,
+        a1_0.balance,
+        a1_0.code,
+        a1_0.created_at,
+        a1_0.currency,
+        a1_0.label,
+        a1_0.owner_id,
+        a1_0.status,
+        a1_0.symbol,
+        a1_0.type,
+        a1_0.updated_at,
+        a1_0.user_id 
+    from
+        accounts a1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=a1_0.owner_id 
+    where
+        o1_0.uid=?
+2025-04-23T01:36:05.460+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.uid,
+        u1_0.created_at,
+        u1_0.dob,
+        u1_0.firstname,
+        u1_0.gender,
+        u1_0.lastname,
+        u1_0.password,
+        u1_0.roles,
+        u1_0.tag,
+        u1_0.tel,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        bank_user u1_0 
+    where
+        u1_0.uid=?
+2025-04-23T01:36:05.464+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.cardid,
+        c1_0.balance,
+        c1_0.billing_address,
+        c1_0.card_holder,
+        c1_0.card_number,
+        c1_0.cvv,
+        c1_0.exp,
+        c1_0.iss,
+        o1_0.uid,
+        o1_0.created_at,
+        o1_0.dob,
+        o1_0.firstname,
+        o1_0.gender,
+        o1_0.lastname,
+        o1_0.password,
+        o1_0.roles,
+        o1_0.tag,
+        o1_0.tel,
+        o1_0.updated_at,
+        o1_0.username,
+        c1_0.pin,
+        c1_0.updated_at 
+    from
+        cards c1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=c1_0.owner_id 
+    where
+        c1_0.owner_id=?
+2025-04-23T01:36:05.475+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-04-23T01:36:05.476+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[fizy.web.app.entity.Account@67d5055d]]
+2025-04-23T01:36:05.481+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-04-23T01:36:35.056+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-9] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByUsernameIgnoreCase]: This method is not transactional.
+2025-04-23T01:36:35.063+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.uid,
+        u1_0.created_at,
+        u1_0.dob,
+        u1_0.firstname,
+        u1_0.gender,
+        u1_0.lastname,
+        u1_0.password,
+        u1_0.roles,
+        u1_0.tag,
+        u1_0.tel,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        bank_user u1_0 
+    where
+        upper(u1_0.username)=upper(?)
+2025-04-23T01:36:35.066+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.cardid,
+        c1_0.balance,
+        c1_0.billing_address,
+        c1_0.card_holder,
+        c1_0.card_number,
+        c1_0.cvv,
+        c1_0.exp,
+        c1_0.iss,
+        o1_0.uid,
+        o1_0.created_at,
+        o1_0.dob,
+        o1_0.firstname,
+        o1_0.gender,
+        o1_0.lastname,
+        o1_0.password,
+        o1_0.roles,
+        o1_0.tag,
+        o1_0.tel,
+        o1_0.updated_at,
+        o1_0.username,
+        c1_0.pin,
+        c1_0.updated_at 
+    from
+        cards c1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=c1_0.owner_id 
+    where
+        c1_0.owner_id=?
+2025-04-23T01:36:35.071+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/accounts", parameters={}
+2025-04-23T01:36:35.071+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to fizy.web.app.controller.AccountController#createAccount(AccountDto, Authentication)
+2025-04-23T01:36:35.076+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [fizy.web.app.dto.AccountDto@65e52493]
+2025-04-23T01:36:35.077+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-9] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.existsByCodeAndOwnerUid]: This method is not transactional.
+2025-04-23T01:36:35.080+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        a1_0.account_id 
+    from
+        accounts a1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=a1_0.owner_id 
+    where
+        a1_0.code=? 
+        and o1_0.uid=? 
+    fetch
+        first ? rows only
+2025-04-23T01:36:35.083+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-9] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.existsByAccountNumber]: This method is not transactional.
+2025-04-23T01:36:35.086+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        a1_0.account_id 
+    from
+        accounts a1_0 
+    where
+        a1_0.account_number=? 
+    fetch
+        first ? rows only
+2025-04-23T01:36:35.088+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-9] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2025-04-23T01:36:35.090+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-9] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2025-04-23T01:36:35.094+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        accounts
+        (account_name, account_number, balance, code, created_at, currency, label, owner_id, status, symbol, type, updated_at, user_id, account_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-04-23T01:36:35.099+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-04-23T01:36:35.099+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [fizy.web.app.entity.Account@edb298a]
+2025-04-23T01:36:35.108+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-04-23T01:36:41.121+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-10] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByUsernameIgnoreCase]: This method is not transactional.
+2025-04-23T01:36:41.125+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        u1_0.uid,
+        u1_0.created_at,
+        u1_0.dob,
+        u1_0.firstname,
+        u1_0.gender,
+        u1_0.lastname,
+        u1_0.password,
+        u1_0.roles,
+        u1_0.tag,
+        u1_0.tel,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        bank_user u1_0 
+    where
+        upper(u1_0.username)=upper(?)
+2025-04-23T01:36:41.129+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        c1_0.cardid,
+        c1_0.balance,
+        c1_0.billing_address,
+        c1_0.card_holder,
+        c1_0.card_number,
+        c1_0.cvv,
+        c1_0.exp,
+        c1_0.iss,
+        o1_0.uid,
+        o1_0.created_at,
+        o1_0.dob,
+        o1_0.firstname,
+        o1_0.gender,
+        o1_0.lastname,
+        o1_0.password,
+        o1_0.roles,
+        o1_0.tag,
+        o1_0.tel,
+        o1_0.updated_at,
+        o1_0.username,
+        c1_0.pin,
+        c1_0.updated_at 
+    from
+        cards c1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=c1_0.owner_id 
+    where
+        c1_0.owner_id=?
+2025-04-23T01:36:41.137+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/accounts", parameters={}
+2025-04-23T01:36:41.138+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to fizy.web.app.controller.AccountController#getUserAccounts(Authentication)
+2025-04-23T01:36:41.139+01:00 TRACE 24192 --- [ZentraBank] [http-nio-8080-exec-10] o.s.t.i.TransactionInterceptor           : No need to create transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAllByOwnerUid]: This method is not transactional.
+2025-04-23T01:36:41.144+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        a1_0.account_id,
+        a1_0.account_name,
+        a1_0.account_number,
+        a1_0.balance,
+        a1_0.code,
+        a1_0.created_at,
+        a1_0.currency,
+        a1_0.label,
+        a1_0.owner_id,
+        a1_0.status,
+        a1_0.symbol,
+        a1_0.type,
+        a1_0.updated_at,
+        a1_0.user_id 
+    from
+        accounts a1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=a1_0.owner_id 
+    where
+        o1_0.uid=?
+2025-04-23T01:36:41.147+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        u1_0.uid,
+        u1_0.created_at,
+        u1_0.dob,
+        u1_0.firstname,
+        u1_0.gender,
+        u1_0.lastname,
+        u1_0.password,
+        u1_0.roles,
+        u1_0.tag,
+        u1_0.tel,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        bank_user u1_0 
+    where
+        u1_0.uid=?
+2025-04-23T01:36:41.149+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        c1_0.cardid,
+        c1_0.balance,
+        c1_0.billing_address,
+        c1_0.card_holder,
+        c1_0.card_number,
+        c1_0.cvv,
+        c1_0.exp,
+        c1_0.iss,
+        o1_0.uid,
+        o1_0.created_at,
+        o1_0.dob,
+        o1_0.firstname,
+        o1_0.gender,
+        o1_0.lastname,
+        o1_0.password,
+        o1_0.roles,
+        o1_0.tag,
+        o1_0.tel,
+        o1_0.updated_at,
+        o1_0.username,
+        c1_0.pin,
+        c1_0.updated_at 
+    from
+        cards c1_0 
+    left join
+        bank_user o1_0 
+            on o1_0.uid=c1_0.owner_id 
+    where
+        c1_0.owner_id=?
+2025-04-23T01:36:41.156+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-04-23T01:36:41.158+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[fizy.web.app.entity.Account@1e3d6f54, fizy.web.app.entity.Account@3837c170]]
+2025-04-23T01:36:41.161+01:00 DEBUG 24192 --- [ZentraBank] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-04-23T01:50:29.388+01:00  INFO 24192 --- [ZentraBank] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-23T01:50:29.406+01:00  INFO 24192 --- [ZentraBank] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-23T01:50:29.428+01:00  INFO 24192 --- [ZentraBank] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T01:50:29.451+01:00  INFO 24192 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-23T01:50:29.486+01:00  INFO 24192 --- [ZentraBank] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
