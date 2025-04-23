@@ -4,6 +4,7 @@ public enum Type {
     //Transaction types
     WITHDRAWAL,
     DEPOSIT,
+    CONVERSION,
     TRANSFER,
     CREDIT,
     DEBIT,

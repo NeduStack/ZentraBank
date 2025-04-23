@@ -2,6 +2,7 @@ package fizy.web.app.controller;
 
 
 import fizy.web.app.dto.AccountDto;
+import fizy.web.app.dto.ConvertDto;
 import fizy.web.app.dto.TransferDto;
 import fizy.web.app.entity.Account;
 import fizy.web.app.entity.Transaction;
@@ -13,6 +14,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/accounts")
@@ -37,5 +39,16 @@ public class AccountController {
         var user = (User) authentication.getPrincipal();
         // Implement transfer logic here
         return ResponseEntity.ok(accountService.transferFunds(transferDto, user));
+    }
+
+    @GetMapping("/rates")
+    public ResponseEntity<Map<String, Double>> getExchangeRates() {
+        return ResponseEntity.ok(accountService.getExchangeRates());
+    }
+
+    @PostMapping("/convert")
+    public ResponseEntity<Transaction> convertCurrency(@RequestBody ConvertDto convertDto, Authentication authentication) throws Exception {
+        var user = (User) authentication.getPrincipal();
+        return ResponseEntity.ok(accountService.convertCurrency(convertDto, user));
     }
 }

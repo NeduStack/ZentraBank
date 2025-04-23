@@ -2,9 +2,11 @@ package fizy.web.app.service.helper;
 
 
 import fizy.web.app.dto.AccountDto;
+import fizy.web.app.dto.ConvertDto;
 import fizy.web.app.entity.*;
 import fizy.web.app.repository.AccountRepository;
 import fizy.web.app.repository.TransactionRepository;
+import fizy.web.app.service.ExchangeRateService;
 import fizy.web.app.util.RandomUtil;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -23,6 +25,7 @@ public class AccountHelper {
     private final AccountRepository accountRepository;
     private final TransactionRepository transactionRepository;
     private final Logger logger = LoggerFactory.getLogger(AccountHelper.class);
+    private final ExchangeRateService exchangeRateService;
 
     private final Map<String, String> CURRENCIES = Map.of(
             "USD", "United States Dollar",
@@ -99,5 +102,59 @@ public class AccountHelper {
             throw new Exception("Insufficient funds");
         }
     }
+
+    public void validateAmount(double amount) throws Exception {
+        if (amount <= 0) {
+            throw new IllegalArgumentException("Amount must be greater than zero");
+        }
+    }
+
+    public void validateDifferentCurrencyType(ConvertDto convertDto) throws Exception {
+        if (convertDto.getToCurrency().equals(convertDto.getFromCurrency())) {
+            throw new IllegalArgumentException("Conversion between same currency is not allowed");
+        }
+    }
+
+    public void validateAccountOwnership(ConvertDto convertDto, String uid) throws Exception {
+        accountRepository.findByCodeAndOwnerUid(convertDto.getFromCurrency(), uid).orElseThrow();
+        accountRepository.findByCodeAndOwnerUid(convertDto.getToCurrency(), uid).orElseThrow();
+
+    }
+
+    public void validateConversion(ConvertDto convertDto, String uid) throws Exception {
+        validateAccountOwnership(convertDto, uid);
+        validateDifferentCurrencyType(convertDto);
+        validateAmount(convertDto.getAmount());
+        validateSufficientFunds(accountRepository.findByCodeAndOwnerUid(convertDto.getFromCurrency(), uid).orElseThrow(), convertDto.getAmount());
+    }
+
+    public Transaction convertCurrency(ConvertDto convertDto, User user) throws Exception {
+        validateConversion(convertDto, user.getUid());
+        var rates = exchangeRateService.getRates();
+        var sendingRates = rates.get(convertDto.getFromCurrency());
+        var receivingRates = rates.get(convertDto.getToCurrency());
+        var computedAmount = convertDto.getAmount() * (sendingRates / receivingRates);
+        var senderAccount = accountRepository.
+                findByCodeAndOwnerUid(convertDto.getFromCurrency(), user.getUid()).
+                orElseThrow();
+        var recipientAccount = accountRepository.
+                findByCodeAndOwnerUid(convertDto.getToCurrency(), user.getUid()).
+                orElseThrow();
+        senderAccount.setBalance(senderAccount.getBalance() - convertDto.getAmount() * 1.01);
+        recipientAccount.setBalance(recipientAccount.getBalance() + computedAmount);
+        accountRepository.saveAll(List.of(senderAccount, recipientAccount));
+
+        var transaction = Transaction.builder()
+                .account(senderAccount)
+                .status(Status.COMPLETED)
+                .type(Type.CONVERSION)
+                .amount(convertDto.getAmount())
+                .txFee(convertDto.getAmount() * 0.01)
+                .owner(senderAccount.getOwner())
+                .build();
+
+        return transactionRepository.save(transaction);
+    }
+
 
 }
