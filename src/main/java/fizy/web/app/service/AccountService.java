@@ -2,7 +2,9 @@ package fizy.web.app.service;
 
 
 import fizy.web.app.dto.AccountDto;
+import fizy.web.app.dto.TransferDto;
 import fizy.web.app.entity.Account;
+import fizy.web.app.entity.Transaction;
 import fizy.web.app.entity.User;
 import fizy.web.app.repository.AccountRepository;
 import fizy.web.app.service.helper.AccountHelper;
@@ -23,5 +25,15 @@ public class AccountService {
 
     public List<Account> getUserAccounts(String uid) {
         return accountRepository.findAllByOwnerUid(uid);
+    }
+
+    public Transaction transferFunds(TransferDto transferDto, User user) throws Exception {
+        // Implement transfer logic here
+        // This is a placeholder implementation
+        var senderAccount = accountRepository.findByCodeAndOwnerUid(transferDto.getCode(), user.getUid())
+                .orElseThrow(() -> new UnsupportedOperationException("Account of type currency does not exist"));
+        var recipientAccount = accountRepository.findByAccountNumber(transferDto.getRecipientAccountNumber())
+                .orElseThrow(() -> new UnsupportedOperationException("Recipient account does not exist"));
+        return accountHelper.performTransfer(senderAccount, recipientAccount, transferDto.getAmount(), user);
     }
 }

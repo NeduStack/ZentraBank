@@ -2,9 +2,9 @@ package fizy.web.app.service.helper;
 
 
 import fizy.web.app.dto.AccountDto;
-import fizy.web.app.entity.Account;
-import fizy.web.app.entity.User;
+import fizy.web.app.entity.*;
 import fizy.web.app.repository.AccountRepository;
+import fizy.web.app.repository.TransactionRepository;
 import fizy.web.app.util.RandomUtil;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import javax.naming.OperationNotSupportedException;
-import java.math.BigDecimal;
+import java.util.List;
 import java.util.Map;
 
 @Component
@@ -21,6 +21,7 @@ import java.util.Map;
 @Getter
 public class AccountHelper {
     private final AccountRepository accountRepository;
+    private final TransactionRepository transactionRepository;
     private final Logger logger = LoggerFactory.getLogger(AccountHelper.class);
 
     private final Map<String, String> CURRENCIES = Map.of(
@@ -47,7 +48,7 @@ public class AccountHelper {
         var account = Account.builder()
                 .accountNumber(accountNumber)
                 .accountName(user.getFirstname() + " " + user.getLastname())
-                .balance(BigDecimal.valueOf(1000))
+                .balance(1000)
                 .owner(user)
                 .code(accountDto.getCode())
                 .symbol(accountDto.getSymbol())
@@ -57,10 +58,46 @@ public class AccountHelper {
     }
 
 
+    public Transaction performTransfer(Account senderAccount, Account recipientAccount, double amount, User user) throws Exception {
+        validateSufficientFunds(senderAccount, (amount * 1.01));
+        senderAccount.setBalance(senderAccount.getBalance() - amount * 1.01);
+        recipientAccount.setBalance(recipientAccount.getBalance() + amount);
+        accountRepository.saveAll(List.of(senderAccount, recipientAccount));
+        var senderTransaction = Transaction.builder()
+                .account(senderAccount)
+                .status(Status.COMPLETED)
+                .type(Type.WITHDRAWAL)
+                .amount(amount)
+                .txFee(amount * 0.01)
+                .owner(senderAccount.getOwner())
+                .build();
+
+        var recipientTransaction = Transaction.builder()
+                .account(recipientAccount)
+                .status(Status.COMPLETED)
+                .type(Type.DEPOSIT)
+                .owner(recipientAccount.getOwner())
+                .amount(amount)
+                .build();
+        return transactionRepository.saveAll(List.of(senderTransaction, recipientTransaction)).get(0);
+    }
 
     public void validateAccountNonExistsForUser(String code, String uid) throws Exception {
         if (accountRepository.existsByCodeAndOwnerUid(code, uid)) {
             throw new Exception("Account of this type already exists for this user");
         }
     }
+
+    public void validateAccountOwner(Account account, User user) throws OperationNotSupportedException {
+        if (!account.getOwner().getUid().equals(user.getUid())) {
+            throw new OperationNotSupportedException("Account does not belong to this user");
+        }
+    }
+
+    public void validateSufficientFunds(Account account, double amount) throws Exception {
+        if (account.getBalance() < amount) {
+            throw new Exception("Insufficient funds");
+        }
+    }
+
 }

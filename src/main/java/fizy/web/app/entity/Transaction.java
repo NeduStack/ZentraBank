@@ -21,9 +21,9 @@ public class Transaction {
     @GeneratedValue(strategy = GenerationType.UUID)
     private String txid;
 
-    private BigDecimal amount;
+    private double amount;
 
-    private BigDecimal txFee;
+    private double txFee;
 
     @ManyToOne
     @JoinColumn(name = "owner_id")

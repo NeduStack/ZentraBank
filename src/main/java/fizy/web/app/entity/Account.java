@@ -23,7 +23,7 @@ public class Account {
     @GeneratedValue(strategy = GenerationType.UUID)
     private String accountId;
 
-    private BigDecimal balance;
+    private double balance;
 
     private String accountName;
 
