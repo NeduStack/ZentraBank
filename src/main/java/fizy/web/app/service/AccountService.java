@@ -11,12 +11,14 @@ import fizy.web.app.repository.AccountRepository;
 import fizy.web.app.service.helper.AccountHelper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
+@Transactional
 public class AccountService {
     private final AccountRepository accountRepository;
     private final AccountHelper accountHelper;

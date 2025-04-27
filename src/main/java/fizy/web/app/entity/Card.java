@@ -1,11 +1,11 @@
 package fizy.web.app.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
@@ -21,14 +21,14 @@ public class Card {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private String cardid;
+    private String cardId;
 
     @Column(nullable = false, unique = true)
     private Long cardNumber;
 
     private String cardHolder;
 
-    private BigDecimal balance;
+    private double balance;
 
     @CreationTimestamp
     private LocalDateTime iss;
@@ -49,6 +49,7 @@ public class Card {
     private User owner;
 
     @OneToMany(mappedBy = "card", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonIgnore
     private List<Transaction> transactions;
 
 }

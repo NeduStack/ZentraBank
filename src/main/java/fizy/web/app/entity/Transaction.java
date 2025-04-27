@@ -1,63 +1,103 @@
 package fizy.web.app.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+
+import java.time.LocalDateTime;
+
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
-
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+/**
+ * Represents a financial transaction in the application.
+ *
+ * @author Iocode
+ * @since 1.0
+ */
 @Entity
 @Builder
-@Table(name = "transactions")
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Transaction {
 
+    /**
+     * Unique identifier for the transaction.
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private String txid;
+    private String txId;
 
-    private double amount;
+    /**
+     * The amount of money involved in the transaction.
+     */
+    private Double amount;
 
-    private double txFee;
+    /**
+     * The transaction fee associated with the transaction.
+     */
+    private Double txFee;
 
-    @ManyToOne
-    @JoinColumn(name = "owner_id")
-    private User owner;
+    /**
+     * The identifier of the sender of the transaction.
+     */
+    private String sender;
 
-    @ManyToOne
-    @JoinColumn(name = "sender_id")
-    private User sender;
-
-    @ManyToOne
-    @JoinColumn(name = "receiver_id")
-    private User receiver;
-
-    @UpdateTimestamp
-    private LocalDateTime updatedAt;
-
-    @CreationTimestamp
-    private LocalDateTime createdAt;
-
-    private Status status;
-
-    private Type type;
+    /**
+     * The identifier of the receiver of the transaction.
+     */
+    private String receiver;
 
     private String description;
 
-    //Transaction to Card relationships
+    /**
+     * The timestamp of the last update to the transaction.
+     */
+    @UpdateTimestamp
+    private LocalDateTime updatedAt;
+
+    /**
+     * The timestamp of the creation of the transaction.
+     */
+    @CreationTimestamp
+    private LocalDateTime createdAt;
+
+    /**
+     * The status of the transaction.
+     */
+    @Enumerated(value = EnumType.STRING)
+    private Status status;
+
+    /**
+     * The type of the transaction.
+     */
+    @Enumerated(value = EnumType.STRING)
+    private Type type;
+
+    /**
+     * The card associated with the transaction.
+     */
     @ManyToOne
     @JoinColumn(name = "card_id")
+    @JsonIgnore
     private Card card;
 
-    //Transaction to Account relationships
+    /**
+     * The user who owns the transaction.
+     */
+    @ManyToOne
+    @JoinColumn(name = "owner_id")
+    @JsonIgnore
+    private User owner;
+
+    /**
+     * The account associated with the transaction.
+     */
     @ManyToOne
     @JoinColumn(name = "account_id")
+    @JsonIgnore
     private Account account;
-
 
 }
