@@ -15,6 +15,8 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
+import java.util.logging.Logger;
 
 @Service
 @RequiredArgsConstructor
@@ -23,7 +25,7 @@ public class UserService {
     private final UserRepository userRepository; //Inject the UserRepository
     private final PasswordEncoder passwordEncoder; //Inject the PasswordEncoder
     private final UserDetailsService userDetailsService; //Inject the UserDetailsService
-
+    private static final Logger logger = Logger.getLogger(UserService.class.getName());
 
     private final AuthenticationManager authenticationManager; //Inject the AuthenticationManager
     private final JwtService jwtService; //Inject the JwtService
@@ -39,6 +41,7 @@ public class UserService {
 
     public Map<String, Object> authenticateUser(UserDto userDto) {
         Map<String, Object> authObject = new HashMap<String, Object>();
+        logger.info("User data: " + userDto);
         User user = (User) userDetailsService.loadUserByUsername(userDto.getUsername());
         if (user == null){
             throw new UsernameNotFoundException("User not found");

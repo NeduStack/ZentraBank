@@ -1,6 +1,5 @@
 package fizy.web.app.service;
 
-
 import fizy.web.app.dto.AccountDto;
 import fizy.web.app.dto.ConvertDto;
 import fizy.web.app.dto.TransferDto;
@@ -8,7 +7,7 @@ import fizy.web.app.entity.Account;
 import fizy.web.app.entity.Transaction;
 import fizy.web.app.entity.User;
 import fizy.web.app.repository.AccountRepository;
-import fizy.web.app.service.helper.AccountHelper;
+import fizy.web.app.service.factory.AccountOperationFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -21,11 +20,11 @@ import java.util.Map;
 @Transactional
 public class AccountService {
     private final AccountRepository accountRepository;
-    private final AccountHelper accountHelper;
+    private final AccountOperationFactory operationFactory;
     private final ExchangeRateService exchangeRateService;
 
     public Account createAccount(AccountDto accountDto, User user) throws Exception {
-        return accountHelper.createAccount(accountDto, user);
+        return operationFactory.getCreateAccountOperation().execute(accountDto, user);
     }
 
     public List<Account> getUserAccounts(String uid) {
@@ -33,13 +32,7 @@ public class AccountService {
     }
 
     public Transaction transferFunds(TransferDto transferDto, User user) throws Exception {
-        // Implement transfer logic here
-        // This is a placeholder implementation
-        var senderAccount = accountRepository.findByCodeAndOwnerUid(transferDto.getCode(), user.getUid())
-                .orElseThrow(() -> new UnsupportedOperationException("Account of type currency does not exist"));
-        var recipientAccount = accountRepository.findByAccountNumber(transferDto.getRecipientAccountNumber())
-                .orElseThrow(() -> new UnsupportedOperationException("Recipient account does not exist"));
-        return accountHelper.performTransfer(senderAccount, recipientAccount, transferDto.getAmount(), user);
+        return operationFactory.getTransferFundsOperation().execute(transferDto, user);
     }
 
     public Map<String, Double> getExchangeRates() {
@@ -47,6 +40,6 @@ public class AccountService {
     }
 
     public Transaction convertCurrency(ConvertDto convertDto, User user) throws Exception {
-        return accountHelper.convertCurrency(convertDto, user);
+        return operationFactory.getConvertCurrencyOperation().execute(convertDto, user);
     }
 }

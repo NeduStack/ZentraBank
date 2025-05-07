@@ -31,33 +31,37 @@ public class AccountHelper {
             "USD", "United States Dollar",
             "EUR", "Euro",
             "GBP", "British Pound",
-            "JPY", "Japanese yen",
             "NGN", "Nigerian Naira",
-            "CAD", "Canadian dollar",
-            "INR", "Indian Rupee"
+            "CAD", "Canadian dollar"
     );
 
-    public Account createAccount(AccountDto accountDto, User user) throws Exception {
-        long accountNumber;
-        try {
-            validateAccountNonExistsForUser(accountDto.getCode(), user.getUid());
-        } catch (Exception e) {
-            logger.error(e.getMessage(), e);
-        }
-        do{
-            accountNumber = new RandomUtil().generateRandom(10);
-        } while(accountRepository.existsByAccountNumber(accountNumber));
 
-        var account = Account.builder()
-                .accountNumber(accountNumber)
-                .accountName(user.getFirstname() + " " + user.getLastname())
-                .balance(1000)
-                .owner(user)
-                .code(accountDto.getCode())
-                .symbol(accountDto.getSymbol())
-                .label(CURRENCIES.get(accountDto.getCode()))
-                .build();
-        return accountRepository.save(account);
+    public Account createAccount(AccountDto accountDto, User user) throws AccountAlreadyExistsForCurrencyException {
+        // 1. Validate no duplicate account exists for this user
+        if (accountRepository.existsByCodeAndOwnerUid(accountDto.getCode(), user.getUid())) {
+            throw new AccountAlreadyExistsForCurrencyException(
+                    "User " + user.getUid() + " already has a " + accountDto.getCode() + " account"
+            );
+        }
+
+        // 2. Generate unique account number
+        long accountNumber;
+        do {
+            accountNumber = new RandomUtil().generateRandom(10);
+        } while (accountRepository.existsByAccountNumber(accountNumber));
+
+        // 3. Build and save new account
+        return accountRepository.save(
+                Account.builder()
+                        .accountNumber(accountNumber)
+                        .accountName(user.getFirstname() + " " + user.getLastname())
+                        .balance(10000000) // Initial balance
+                        .owner(user)
+                        .code(accountDto.getCode())
+                        .symbol(accountDto.getSymbol())
+                        .label(CURRENCIES.get(accountDto.getCode()))
+                        .build()
+        );
     }
 
 
@@ -81,6 +85,15 @@ public class AccountHelper {
     public void validateAccountOwner(Account account, User user) throws OperationNotSupportedException {
         if (!account.getOwner().getUid().equals(user.getUid())) {
             throw new OperationNotSupportedException("Account does not belong to this user");
+        }
+    }
+
+
+
+    // In an appropriate package, e.g., com.yourproject.exception
+    public class AccountAlreadyExistsForCurrencyException extends RuntimeException { // Or extends Exception
+        public AccountAlreadyExistsForCurrencyException(String message) {
+            super(message);
         }
     }
 
